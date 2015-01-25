@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030A56401A74AEF7001068C0 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A563F1A74AEF7001068C0 /* FactBook.swift */; };
 		035B098D1A6B22E4003F9292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035B098C1A6B22E4003F9292 /* AppDelegate.swift */; };
 		035B098F1A6B22E4003F9292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035B098E1A6B22E4003F9292 /* ViewController.swift */; };
 		035B09921A6B22E4003F9292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035B09901A6B22E4003F9292 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		030A563F1A74AEF7001068C0 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 		035B09871A6B22E4003F9292 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		035B098B1A6B22E4003F9292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		035B098C1A6B22E4003F9292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,8 +79,9 @@
 		035B09891A6B22E4003F9292 /* FunFacts */ = {
 			isa = PBXGroup;
 			children = (
-				035B098C1A6B22E4003F9292 /* AppDelegate.swift */,
+				030A563F1A74AEF7001068C0 /* FactBook.swift */,
 				035B098E1A6B22E4003F9292 /* ViewController.swift */,
+				035B098C1A6B22E4003F9292 /* AppDelegate.swift */,
 				035B09901A6B22E4003F9292 /* Main.storyboard */,
 				035B09931A6B22E4003F9292 /* Images.xcassets */,
 				035B09951A6B22E4003F9292 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030A56401A74AEF7001068C0 /* FactBook.swift in Sources */,
 				035B098F1A6B22E4003F9292 /* ViewController.swift in Sources */,
 				035B098D1A6B22E4003F9292 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				035B09A81A6B22E5003F9292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		035B09A91A6B22E5003F9292 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				035B09AB1A6B22E5003F9292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
